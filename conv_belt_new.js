@@ -3168,7 +3168,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.skipBtn).to({_off:true},1).wait(1));
 
 	// Layer_1
-	this.myVideo = new lib.an_Video({'id': 'myVideo', 'src':'videos/Sequence%2001_1.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':false, 'poster':'', 'preload':true, 'class':'video'});
+	this.myVideo = new lib.an_Video({'id': 'myVideo', 'src':'videos/conveyerv2.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':false, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.myVideo.name = "myVideo";
 	this.myVideo.setTransform(900,450,4.5,3,0,0,0,200,150);
